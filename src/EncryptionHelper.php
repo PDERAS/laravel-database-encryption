@@ -7,7 +7,7 @@
  */
 declare(strict_types=1);
 
-namespace AustinHeap\Database\Encryption;
+namespace PDERAS\Database\Encryption;
 
 use Illuminate\Support\Facades\Config;
 use RuntimeException;

@@ -7,9 +7,9 @@
  */
 declare(strict_types=1);
 
-namespace AustinHeap\Database\Encryption\Traits;
+namespace PDERAS\Database\Encryption\Traits;
 
-use AustinHeap\Database\Encryption\EncryptionFacade as DatabaseEncryption;
+use PDERAS\Database\Encryption\EncryptionFacade as DatabaseEncryption;
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Contracts\Encryption\EncryptException;
 use Illuminate\Support\Facades\Crypt;
