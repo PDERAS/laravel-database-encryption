@@ -35,7 +35,7 @@
         "elocrypt",
         "elocryptfive"
     ],
-    "homepage": "https://github.com/austinheap/laravel-database-encryption",
+    "homepage": "https://github.com/PDERAS/laravel-database-encryption",
     "license": "MIT",
     "authors": [
         {
@@ -64,7 +64,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AustinHeap\\Database\\Encryption\\": "src"
+            "PDERAS\\Database\\Encryption\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -74,10 +74,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AustinHeap\\Database\\Encryption\\EncryptionServiceProvider"
+                "PDERAS\\Database\\Encryption\\EncryptionServiceProvider"
             ],
             "aliases": {
-                "DatabaseEncryption": "AustinHeap\\Database\\Encryption\\EncryptionFacade"
+                "DatabaseEncryption": "PDERAS\\Database\\Encryption\\EncryptionFacade"
             }
         }
     },

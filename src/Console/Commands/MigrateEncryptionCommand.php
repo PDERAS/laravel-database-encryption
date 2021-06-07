@@ -7,9 +7,9 @@
  */
 declare(strict_types=1);
 
-namespace AustinHeap\Database\Encryption\Console\Commands;
+namespace PDERAS\Database\Encryption\Console\Commands;
 
-use AustinHeap\Database\Encryption\EncryptionFacade as DatabaseEncryption;
+use PDERAS\Database\Encryption\EncryptionFacade as DatabaseEncryption;
 use Exception;
 use Illuminate\Encryption\Encrypter;
 use Illuminate\Support\Facades\Config;
