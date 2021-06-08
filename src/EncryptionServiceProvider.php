@@ -61,6 +61,6 @@ class EncryptionServiceProvider extends \Illuminate\Support\ServiceProvider
             return new EncryptionHelper();
         });
 
-        $this->commands([\AustinHeap\Database\Encryption\Console\Commands\MigrateEncryptionCommand::class]);
+        $this->commands([\Pderas\Database\Encryption\Console\Commands\MigrateEncryptionCommand::class]);
     }
 }
