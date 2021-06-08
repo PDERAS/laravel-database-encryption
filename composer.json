@@ -64,7 +64,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PDERAS\\Database\\Encryption\\": "src"
+            "Pderas\\Database\\Encryption\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -74,10 +74,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PDERAS\\Database\\Encryption\\EncryptionServiceProvider"
+                "Pderas\\Database\\Encryption\\EncryptionServiceProvider"
             ],
             "aliases": {
-                "DatabaseEncryption": "PDERAS\\Database\\Encryption\\EncryptionFacade"
+                "DatabaseEncryption": "Pderas\\Database\\Encryption\\EncryptionFacade"
             }
         }
     },
