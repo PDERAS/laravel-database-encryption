@@ -9,19 +9,19 @@ declare(strict_types=1);
 
 if (! function_exists('database_encryption')) {
     /**
-     * @return \PDERAS\Database\Encryption\EncryptionHelper
+     * @return \Pderas\Database\Encryption\EncryptionHelper
      */
-    function database_encryption(): \PDERAS\Database\Encryption\EncryptionHelper
+    function database_encryption(): \Pderas\Database\Encryption\EncryptionHelper
     {
-        return \PDERAS\Database\Encryption\EncryptionFacade::getInstance();
+        return \Pderas\Database\Encryption\EncryptionFacade::getInstance();
     }
 }
 
 if (! function_exists('db_encryption')) {
     /**
-     * @return \PDERAS\Database\Encryption\EncryptionHelper
+     * @return \Pderas\Database\Encryption\EncryptionHelper
      */
-    function db_encryption(): \PDERAS\Database\Encryption\EncryptionHelper
+    function db_encryption(): \Pderas\Database\Encryption\EncryptionHelper
     {
         return database_encryption();
     }
@@ -29,9 +29,9 @@ if (! function_exists('db_encryption')) {
 
 if (! function_exists('dbencryption')) {
     /**
-     * @return \PDERAS\Database\Encryption\EncryptionHelper
+     * @return \Pderas\Database\Encryption\EncryptionHelper
      */
-    function dbencryption(): \PDERAS\Database\Encryption\EncryptionHelper
+    function dbencryption(): \Pderas\Database\Encryption\EncryptionHelper
     {
         return database_encryption();
     }

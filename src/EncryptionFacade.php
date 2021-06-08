@@ -7,7 +7,7 @@
  */
 declare(strict_types=1);
 
-namespace PDERAS\Database\Encryption;
+namespace Pderas\Database\Encryption;
 
 use RuntimeException;
 

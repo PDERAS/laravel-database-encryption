@@ -7,9 +7,9 @@
  */
 declare(strict_types=1);
 
-namespace PDERAS\Database\Encryption\Traits;
+namespace Pderas\Database\Encryption\Traits;
 
-use PDERAS\Database\Encryption\EncryptionFacade as DatabaseEncryption;
+use Pderas\Database\Encryption\EncryptionFacade as DatabaseEncryption;
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Contracts\Encryption\EncryptException;
 use Illuminate\Support\Facades\Crypt;
